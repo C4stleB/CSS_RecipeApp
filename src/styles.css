@@ -1,0 +1,161 @@
+body {
+  font-family: sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f9fafc;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #010d3c;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #e74f5f;
+}
+
+.phone {
+  margin-top: 50px;
+  background-color: white;
+  width: 350px;
+  height: 700px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.screen {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f8f8f8, #f5f4f4);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.popular {
+  margin-top: 20px;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular__cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.popular__card {
+  margin-top: 10px;
+  background: linear-gradient(to bottom, transparent, #797a78),
+    url(https://www.handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg);
+  color: white;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 100px;
+}
+
+.other-recipe-title {
+  margin-top: 10px;
+}
+
+.other__cards {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.other__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.other__card i {
+  font-size: 20px;
+}
+
+.other__tag {
+  color: black;
+}
+
+.recipe-numb {
+  color: #a3a3a3;
+}
+
+.tab-bar {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  bottom: -5px;
+  left: 0;
+  box-shadow: 5px 5px 40px rgba(118, 146, 180, 0.5);
+}
+
+.tab-bar .tab-bar__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.tab-bar__list .tab-bar__tab {
+  color: #696969;
+  padding-top: 20px;
+  width: 12%;
+  text-align: center;
+}
+
+.tab-bar__list .tab-bar__tab:nth-child(2) {
+  color: #e74f5f;
+}
